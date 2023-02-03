@@ -7,5 +7,11 @@ pipeline {
                 echo ' hello world'
             }
         }
+
+        stage('QA') {
+            steps {
+                echo ' hello world from qa' 
+            }
+        }
     }
 }
