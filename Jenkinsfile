@@ -13,5 +13,11 @@ pipeline {
                 echo ' hello world from qa' 
             }
         }
+
+        stage ('prod') {
+            steps {
+                echo ' hello from prod'
+            }
+        }
     }
 }
